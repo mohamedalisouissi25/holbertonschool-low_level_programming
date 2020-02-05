@@ -1,3 +1,2 @@
 #!/bin/bash
-fputs(string, "Programming is like building a multilingual puzzle);
-fputc('\n', "Programming is like building a multilingual puzzle);
+fputs ("Programming is like building a multilingual puzzle, "%s\n", string)
