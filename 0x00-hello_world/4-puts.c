@@ -1,2 +1,10 @@
-#!/bin/bash
-fputs ("Programming is like building a multilingual puzzle, "%s\n", string)
+#include <stdio.h>
+/**
+ * main - mainfunction
+ * Return: 0
+*/
+int main(void)
+{
+puts("\"Programming is like building a multilingual puzzle");
+return (0);
+}
