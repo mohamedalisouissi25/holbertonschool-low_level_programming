@@ -1,15 +1,12 @@
 #include <stdio.h>
-#include<string.h>
-#include <unisd.h>
 /**
- * main - run all function
- * 
- * Return: Return 1 and exit
- */
+  * main - main function
+  * Return: 0
+  */
+
 int main(void)
 {
-int l;
-l =strln("and that piece of art is useful\" - Dora Korpar, 2015-10-19");
-write(2 ,"and that piece of art is useful\" - Dora korpar, 2015-10-19\n",l);
-return (1);
+	fprintf(stderr, "and that piece of art is useful"\
+			" - Dora Korpar, 2015-10-19");
+	return (0);
 }
