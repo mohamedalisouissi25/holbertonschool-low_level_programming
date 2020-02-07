@@ -11,7 +11,7 @@ int main(void)
 
 	for (Al = 0; Al <= 9; Al++)
 	{
-		putchar(Al +'0');
+		putchar(Al + '0');
 		if (Al != 9)
 		{
 			putchar(',');
