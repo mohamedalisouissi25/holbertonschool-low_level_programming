@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * _abs - computes the absolute value
+ * print_last_digit - computes the absolute value
  * @n: input
  * Return: last digit
  */
