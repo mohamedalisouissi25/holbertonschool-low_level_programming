@@ -14,7 +14,8 @@ return (l);
 }
 else
 {
-_putchar(l * -1 + '0');
+_putchar('-');
+_putchar(l + '0');
 return (l * -1);
 }
 }
