@@ -4,20 +4,20 @@
 *
 * Return: output
 */
+
 void more_numbers(void)
 {
-int k, l;
-for (k = 0 ; k <= 10 ; k++)
+int t, n;
+for (t = 0; t < 10; t++)
 {
-for (l = 1 ; l <= 14 ; l++)
-
-if (l >= 10)
+for (n = 0 ; n <= 14 ; n++)
 {
-_putchar (l / 10 + '0');
-_putchar (l % 10 + '0');
+if (n > 9)
+{
+_putchar(n / 10 + '0');
 }
-else
-_putchar (l + '0');
-_putchar ('\n');
+_putchar(n % 10 + '0');
+}
+_putchar('\n');
 }
 }
