@@ -6,7 +6,7 @@
  */
 int _isdigit(int Al)
 {
-if ((Al == '0') && (Al <= '9'))
+if ((Al <= '9') && (Al >= '0'))
 {
 return (1);
 }
