@@ -7,9 +7,9 @@
 void print_most_numbers(void)
 {
 int Al;
-for (Al = '0'; Al <= '9'; Al++)
+for (Al = '0' ; Al <= '9'; Al++)
 {
-if (Al != 2 && Al != 4)
+if (Al != '2' && Al != '4')
 _putchar(Al);
 }
 _putchar('\n');
