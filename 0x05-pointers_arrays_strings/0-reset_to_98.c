@@ -4,9 +4,10 @@
  *
  * Return: Always 0.
  */
-
+{
 int n = 98;
 int *p = &n;
 
 p = 402;
 
+}
