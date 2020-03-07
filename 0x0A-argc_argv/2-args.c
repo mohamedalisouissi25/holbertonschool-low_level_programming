@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 /**
-* main - prints program
+* main - prints program task 2-args
 * @argc: input
 * @argv: input
 * Return: output
