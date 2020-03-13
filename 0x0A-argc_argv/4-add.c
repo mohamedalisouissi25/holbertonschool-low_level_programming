@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
-
 /**
  * main - adds numbers
  * @argc: input
@@ -13,10 +12,11 @@ int main(int argc, char *argv[])
 
 {
 int sum, i, j;
+
 if (argc == 1)
 	{
-		printf("0\n");
-		return (0);
+	printf("0\n");
+	return (0);
 	}
 
 	sum = 0;
