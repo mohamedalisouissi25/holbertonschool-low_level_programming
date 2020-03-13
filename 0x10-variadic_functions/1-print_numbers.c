@@ -4,7 +4,6 @@
  * Description: prints numbers
  * @n: int
  * @separator: int
- * @sum: int
  * Return: output
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
@@ -23,5 +22,6 @@ for (i = 0; i < n; i++)
 		printf("%s", separator);
 	}
 printf("\n");
+
 va_end(list);
 }
