@@ -14,7 +14,7 @@ if (nmemb == 0 || size == 0)
 	return (NULL);
 m = malloc(nmemb * size);
 
-if (p == NULL)
+if (m == NULL)
 	return (NULL);
 
 for (i = 0; i < (nmemb * size); i++)
