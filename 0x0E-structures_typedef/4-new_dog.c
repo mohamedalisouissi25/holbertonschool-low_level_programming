@@ -22,7 +22,7 @@ int i = 0, j = 0, x, y;
 	if (p ==  NULL)
 	return (NULL);
 
-while (name[i++]);
+while (name[i++])
 
 	p->name = malloc(i);
 	if (p->name == NULL)
@@ -34,7 +34,7 @@ while (name[i++]);
 for (x = 0; x < i; x++)
 	p->name[x] = name[x];
 
-while (owner[j++]);
+while (owner[j++])
 	p->owner = malloc(j);
 	if (p->owner == NULL)
 	{
