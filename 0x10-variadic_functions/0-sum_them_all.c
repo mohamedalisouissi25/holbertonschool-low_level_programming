@@ -3,7 +3,6 @@
  * sum_them_all - sum the numbers
  * Description: sum of numbers
  * @n: int
- * @sum: int
  * Return: output
  */
 
