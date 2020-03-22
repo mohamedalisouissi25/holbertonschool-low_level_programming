@@ -1,8 +1,7 @@
 #include "lists.h"
 
 /**
- * add_node? (- add a new node to the list)?
- *
+ * add_node - add node
  * @head: input
  * @s: input
  * Return: output
