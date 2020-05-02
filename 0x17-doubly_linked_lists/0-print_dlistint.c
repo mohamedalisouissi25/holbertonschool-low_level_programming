@@ -3,7 +3,7 @@
 
 /**
  * print_dlistint - print the elements
- * @h: input
+ * @head: input
  * Return: output
  */
 size_t print_dlistint(const dlistint_t *head)
